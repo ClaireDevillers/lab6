@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <title>contact us ejs page</title>
+</head>
+<body>
+    <div id="formulaire">
+        
+        <form action="/flights/envoyer"method="POST">
+            <h1>flights page</h1>
+           <br><br><br>
+
+            <label for="">airline</label><br>
+                <input name="airline" type="text"><br> <br>
+            
+            <label for="">airport</label><br>
+                <input name="airport" type="text"><br>
+                <br><br>
+
+            <label for="">flightNo</label><br>
+                <input name="flightNo" type="Number">
+                <br><br>
+
+                <label for="">departs</label><br>
+                <input name="departs" type="Date">
+                <br><br>
+
+            <input type="SUBMIT" value="envoyer"/>
+                       
+        </form>
+    </div>
+
+</body>
+</html>

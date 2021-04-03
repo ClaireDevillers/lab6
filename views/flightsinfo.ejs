@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>info about flights</h1>
+    
+    <% for (let x of results){%>
+        
+        <a href="/flights/flightinfo/<%=x.id%>"><li>id:<%=x.id%></li></a>
+        <li>airline: <%=x.airline%></li>
+        <li>airport: <%=x.airport%></li>
+        <li>flightNo: <%=x.flightNo%></li>
+        <li>departs: <%=x.departs%></li><hr></hr>
+        <%}%>
+
+
+</body>
+</html>
